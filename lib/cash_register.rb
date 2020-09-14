@@ -1,3 +1,5 @@
+require 'pry'
+
 class CashRegister
   
   attr_accessor :total, :discount, :title, :price, :quantity, :items
@@ -35,6 +37,7 @@ end
   
   def void_last_transaction
     if @items.length > 0 
+      binding.pry
       @items.pop
       @total 
     else 
