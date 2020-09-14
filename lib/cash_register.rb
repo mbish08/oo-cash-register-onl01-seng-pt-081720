@@ -38,13 +38,9 @@ end
   end 
   
   def void_last_transaction
-    if @items.length > 0 
-      binding.pry
-      @items.pop
-      @total 
-    else 
-      @total -= @total  
-    end 
+    
+      @total -= @last_transaction_amount
+   
   end 
   
 end 
