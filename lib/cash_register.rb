@@ -34,7 +34,7 @@ end
   end 
   
   def void_last_transaction
-    @total 
+    if 
   end 
   
 end 
