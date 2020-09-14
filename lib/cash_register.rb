@@ -34,7 +34,9 @@ end
   end 
   
   def void_last_transaction
-    if 
+    if @items.length > 0 
+      @items.pop
+    end 
   end 
   
 end 
