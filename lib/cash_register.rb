@@ -37,6 +37,8 @@ end
     if @items.length > 0 
       @items.pop
       @total 
+    else 
+      @total = 0 
     end 
   end 
   
