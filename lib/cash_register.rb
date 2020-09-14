@@ -36,6 +36,7 @@ end
   def void_last_transaction
     if @items.length > 0 
       @items.pop
+      @total 
     end 
   end 
   
