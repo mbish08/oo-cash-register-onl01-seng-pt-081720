@@ -38,7 +38,7 @@ end
       @items.pop
       @total 
     else 
-      @total = 0 
+      @total -= @total  
     end 
   end 
   
