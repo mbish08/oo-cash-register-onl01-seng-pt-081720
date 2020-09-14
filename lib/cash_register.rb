@@ -16,7 +16,7 @@ class CashRegister
     @title = title
     @price = price 
     @total += price * quantity
-    @last_transaction_amount = quantity * title
+    @last_transaction_amount = quantity * price
     if quantity > 1
       counter = 0
       while counter < quantity
